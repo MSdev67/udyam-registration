@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // Basic Configuration
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    
+    // Type Checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "skipLibCheck": true,
+    
+    // Module Resolution
+    "esModuleInterop": true,
+    "moduleDetection": "force",
+    
+    // Source Maps
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    
+    // Style and Safety
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    
+    // Node.js Specific
+    "types": ["node"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
